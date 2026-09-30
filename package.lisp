@@ -201,6 +201,22 @@
                           #:class-direct-superclasses
                           #:class-slots
                           #:ensure-class)
+  #+dotcl (:import-from #:dotcl-mop
+                        #:generic-function-name
+                        #:slot-definition-allocation
+                        #:slot-definition
+                        #:compute-slots
+                        #:slot-definition-initform
+                        #:slot-definition-initargs
+                        #:slot-definition-name
+                        #:slot-definition-readers
+                        #:slot-definition-type
+                        #:slot-definition-writers
+                        #:class-direct-default-initargs
+                        #:class-direct-slots
+                        #:class-direct-superclasses
+                        #:class-slots
+                        #:ensure-class)
   #+abcl (:import-from #:mop
 
                        ;; All the commented out methods are defined in
